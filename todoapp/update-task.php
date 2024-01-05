@@ -1,6 +1,6 @@
 <?php
-require_once('C:\xampp\htdocs\todoapp\dbconfig\dbconfig.php');
-require_once('C:\xampp\htdocs\todoapp\functions\TaskController.php');
+require_once('C:\xampp\htdocs\php-all-projects\todoapp\dbconfig\dbconfig.php');
+require_once('C:\xampp\htdocs\php-all-projects\todoapp\functions\TaskController.php');
 
 ?>
 <!DOCTYPE html>

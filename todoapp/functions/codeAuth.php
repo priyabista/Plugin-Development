@@ -1,6 +1,6 @@
 <?php
-require_once('C:\xampp\htdocs\todoapp\dbconfig\dbconfig.php');
-require_once('C:\xampp\htdocs\todoapp\functions\TaskController.php');
+require_once('C:\xampp\htdocs\php-all-projects\todoapp\dbconfig\dbconfig.php');
+require_once('C:\xampp\htdocs\php-all-projects\todoapp\functions\TaskController.php');
 $db = new DatabaseConnection;
 
 if(isset($_POST['submit']))
@@ -15,6 +15,7 @@ if(isset($_POST['submit']))
     if($result)
     {
         echo "Task added sucessfully";
+        header("Location: ../index.php");
     }
     else{
         echo "Failed to add task";
